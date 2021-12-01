@@ -1,0 +1,363 @@
+/* This is the base CSS file */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(207, 198, 198);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .nav-link {
+    font-size: 1.3em;
+  
+    letter-spacing: 0.2em;
+    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 0 0.5em;
+    padding: 0.2em;
+    transition: ease-out 1s all;
+  }
+  
+  .logo {
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 0.2em;
+    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 0.5em;
+    padding: 0.2em;
+  }
+  
+  .nav-link:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #navbar-toggler {
+    display: none;
+  }
+  
+  .social {
+    color: blue;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+  #container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .header-card {
+    width: 320px;
+    height: 400px;
+    margin: 10px 10px 10px 50px;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 94px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 30px;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: center;
+  }
+  .card {
+    background-color: azure;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 12px;
+  }
+  
+  .title {
+    position: absolute;
+    max-height: 30px;
+    font-size: 28px;
+    margin-bottom: 420px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: black;
+  }
+  
+  .card-image {
+    height: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .car-1 {
+    object-fit: cover;
+    border-radius: 12px;
+    background-image: url(/IMAGES/calculator.jpg);
+    background-size: cover;
+  }
+  
+  .car-2 {
+    object-fit: cover;
+    background-image: url(/IMAGES/login.PNG);
+    background-size: cover;
+  }
+  
+  .car-3 {
+    object-fit: cover;
+    background-image: url(/IMAGES/whatsapp.jpg);
+    background-size: cover;
+  }
+  
+  .card h2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card a {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    color: blue;
+  }
+  
+  .copyright-info {
+    width: 20em;
+    border-color: 4px solid black;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    padding-top: 1em;
+    margin-top: 3em;
+    width: 100%;
+    background-color: #746c6c;
+    height: 5.2em;
+  }
+  
+  #survey-form {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-flow: column wrap;
+    max-width: 650px;
+    height: 600px;
+    padding-right: auto;
+    padding-left: auto;
+    background-color: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      rgb(72, 72, 165);
+  }
+  
+  form {
+    font-family: inherit;
+    background: transparent;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 7px;
+    display: flex;
+    padding: 2.5rem 0.625rem;
+    margin: 200px auto 0 auto;
+  }
+  
+  #email-label {
+    border-radius: 6px;
+    font-family: inherit;
+    display: flex;
+    margin-left: 15px;
+    height: 37px;
+    width: 620px;
+    margin-bottom: 20px;
+    border-color: none;
+    display: flex;
+  }
+  
+  #name-label {
+    border-radius: 6px;
+    font-family: inherit;
+    display: flex;
+    margin-left: 15px;
+    height: 37px;
+    width: 620px;
+    margin-bottom: 20px;
+    /* padding: 5px 40px; */
+    border-color: none;
+  }
+  
+  #number-label {
+    border-radius: 6px;
+    font-family: inherit;
+    margin-left: 15px;
+    height: 37px;
+    width: 620px;
+    /* padding: 5px 40px; */
+    margin-bottom: 20px;
+    border-color: none;
+    display: flex;
+  }
+  
+  label {
+    color: lavender;
+    margin-left: 5px;
+    margin-bottom: 50px;
+  }
+  
+  #dropdown {
+    border-radius: 6px;
+    font-family: inherit;
+    margin: 0 auto;
+    height: 40px;
+    width: 620px;
+    /* padding: 5px 40px; */
+    margin-bottom: 20px;
+    margin-left: 18px;
+    border-color: none;
+  }
+  
+  #dropdown > p {
+    margin-left: 10px;
+    color: lavender;
+  }
+  
+  .radio-button {
+    padding-left: 10px;
+  }
+  
+  .radio-button > p {
+    margin-left: 5px;
+    color: lavender;
+  }
+  
+  container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  /* Hide the default checkbox */
+  .container input {
+    visibility: hidden;
+    cursor: pointer;
+  }
+  
+  /* Create a custom checkbox */
+  .mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: lightgray;
+  }
+  
+  .container:hover input ~ .mark {
+    background-color: gray;
+  }
+  
+  .container input:checked ~ .mark {
+    background-color: blue;
+  }
+  
+  /* Create the mark/indicator (hidden when not checked) */
+  .mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the mark when checked */
+  .container input:checked ~ .mark:after {
+    display: block;
+  }
+  
+  /* Style the mark/indicator */
+  .container .mark:after {
+    left: 7px;
+    top: 5px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+  .describe {
+    margin-left: 10px;
+    color: lavender;
+  }
+  
+  textarea {
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  
+  #submit {
+    width: 630px;
+    height: 45px;
+    background-color: #37af65;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: lavender;
+    border-radius: 4px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    #navbar-toggler {
+      display: block;
+    }
+  
+    .navbar-collapse {
+      display: none;
+    }
+  }
+  
+  /*@media screen (max-width: 768px) {
+  } */
+  
