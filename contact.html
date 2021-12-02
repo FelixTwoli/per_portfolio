@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css"/>
-    <title>Contacts/title>
+    <title>Contacts</title>
   </head>
   <body>
     <!--Navigation Bar-->
@@ -30,8 +30,7 @@
         >
         <a href="blog.html" class="nav-link"><i class="fas fa-blog"></i>Blog</a>
         <a href="contacts.html" class="nav-link"
-          ><i class="far fa-address-book"></i>Contacts</a
-        >
+          ><i class="far fa-address-book"></i>Contacts</a>
       </div>
     </nav>
     <!--Hero Section-->
@@ -60,6 +59,40 @@
         </label>
       </div>
 
+      <div class="row">
+        <label class="mr-3" for="phone">Tel. </label>
+        <input
+          type="tel"
+          name="code"
+          id="code"
+          size="4"
+          placeholder="+254"
+          class="form-input"
+        />
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          size="10"
+          placeholder="07********"
+          class="form-input"
+        />
+      </div>
+
+      <div class="radio-button">
+        <p>Preferred Means</p>
+        <div>
+          <input type="radio" name="ra-button" value="Tel" checked />
+          <label for="Tel">Tel</label>
+        </div>
+        <div>
+          <input type="radio" name="ra-button" value="Email" />
+          <label for="Maybe">Email</label>
+        </div>
+      </div>
+
+      
+
       <div>
         <p class="describe">products</p>
         <select name="dropdown" id="dropdown">
@@ -72,17 +105,7 @@
           <option value="Other">Other</option>
         </select>
       </div>
-      <div class="radio-button">
-        <p>Preferred Means</p>
-        <div>
-          <input type="radio" name="ra-button" value="Tel" checked />
-          <label for="Tel">Tel</label>
-        </div>
-        <div>
-          <input type="radio" name="ra-button" value="Email" />
-          <label for="Maybe">Email</label>
-        </div>
-      </div>
+      
 
       <div>
         <p class="describe">Message</p>
